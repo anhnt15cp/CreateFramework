@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     let a: Int = 0
+    let b: Int = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
