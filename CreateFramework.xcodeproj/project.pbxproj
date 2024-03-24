@@ -24,6 +24,13 @@
 			remoteGlobalIDString = CC6855AF2BB05BCD00E79DBA;
 			remoteInfo = SubModule;
 		};
+		CC6855C62BB05E5300E79DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6855BF2BB05BF900E79DBA /* SubModule.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6855AE2BB05BCD00E79DBA;
+			remoteInfo = SubModule;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -146,6 +153,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				CC6855C72BB05E5300E79DBA /* PBXTargetDependency */,
 			);
 			name = CreateFramework;
 			productName = CreateFramework;
@@ -251,6 +259,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC6855C72BB05E5300E79DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SubModule;
+			targetProxy = CC6855C62BB05E5300E79DBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CC6855622BB0540B00E79DBA /* Main.storyboard */ = {
